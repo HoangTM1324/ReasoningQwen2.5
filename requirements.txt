@@ -1,0 +1,14 @@
+torch
+accelerate
+transformers
+tokenizers
+huggingface_hub
+peft
+bitsandbytes
+datasets
+lm_eval[hf]
+scipy
+sentencepiece
+protobuf
+pandas
+numpy
