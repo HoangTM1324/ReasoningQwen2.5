@@ -1,17 +1,17 @@
 # ReasoningQwen2.5
-# Qwen 2.5 Reasoning Fine-tune 🧠
+# Qwen 2.5 Reasoning Fine-tune 
 
 This project demonstrates how to fine-tune the **Qwen 2.5 (0.5B Instruct)** model to enhance its reasoning capabilities using **QLoRA** (Quantized Low-Rank Adaptation).
 
 The model is trained on the **OpenThoughts-114k** dataset to improve Chain-of-Thought (CoT) generation and is evaluated on the **GSM8k** benchmark.
 
-## 🚀 Key Features
+## Key Features
 * **Efficient Fine-tuning:** Uses 4-bit quantization (BitsAndBytes) and LoRA to train on consumer-grade GPUs.
 * **Modular Codebase:** Logic is separated into reusable modules (`src/`) for better maintainability.
 * **Reasoning Focus:** Specifically prompts the model to generate `<thinking>` steps before providing the solution.
 * **Evaluation Pipeline:** Includes scripts to merge adapters and evaluate performance using `lm-evaluation-harness`.
 
-## 📂 Project Structure
+## Project Structure
 ```text
 .
 ├── notebooks/
