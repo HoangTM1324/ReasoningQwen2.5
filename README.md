@@ -28,8 +28,8 @@ The model is trained on the **OpenThoughts-114k** dataset to improve Chain-of-Th
 ## Installation
 ### Clone the repository:
 ```text
-git clone [https://github.com/your-username/qwen-reasoning-finetune.git](https://github.com/your-username/qwen-reasoning-finetune.git)
-cd qwen-reasoning-finetune
+git clone [[https://github.com/your-username/qwen-reasoning-finetune.git](https://github.com/your-username/qwen-reasoning-finetune.git)
+cd qwen-reasoning-finetune](https://github.com/HoangTM1324/ReasoningQwen2.5.git)
 ```
 ### Install dependencies:
 ```text
